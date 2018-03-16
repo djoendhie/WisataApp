@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "300273368580",
+    "firebase_url": "https://bebas-121f0.firebaseio.com",
+    "project_id": "bebas-121f0",
+    "storage_bucket": "bebas-121f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300273368580:android:e7b48535e01c9a68",
+        "android_client_info": {
+          "package_name": "com.example.ihsan.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300273368580-3r2uh0t67qs98afn2qehucnblak8pkv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ihsan.authentication",
+            "certificate_hash": "7d15c041c2ae980bfda538c42bd736f47ed0cccd"
+          }
+        },
+        {
+          "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjKDL42fTg5soy-LtrKGggtlO6NOBH5bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300273368580:android:4f9fabe1e13225d0",
+        "android_client_info": {
+          "package_name": "com.kun.jun.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300273368580-e14eav72437t7u70b7hk2pp3u1grrsu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kun.jun.firebase",
+            "certificate_hash": "642cb1aa7c3a4a359942d604500c2e4b55c671c9"
+          }
+        },
+        {
+          "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjKDL42fTg5soy-LtrKGggtlO6NOBH5bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300273368580:android:144011a6752df62e",
+        "android_client_info": {
+          "package_name": "com.kun.jun.wisataapp.adapter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300273368580-eht4chenpgcfq8u7sk4prq1a6bj22t17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kun.jun.wisataapp.adapter",
+            "certificate_hash": "642cb1aa7c3a4a359942d604500c2e4b55c671c9"
+          }
+        },
+        {
+          "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjKDL42fTg5soy-LtrKGggtlO6NOBH5bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300273368580:android:5c5d6a06d2bbe079",
+        "android_client_info": {
+          "package_name": "com.kun.jun.wisataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300273368580-thu20m4er5gbmqsmmrrnna3a6mnp32ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kun.jun.wisataapp",
+            "certificate_hash": "642cb1aa7c3a4a359942d604500c2e4b55c671c9"
+          }
+        },
+        {
+          "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjKDL42fTg5soy-LtrKGggtlO6NOBH5bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300273368580-9unpo63akuao6ikp8dkoc8ia34liel0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
