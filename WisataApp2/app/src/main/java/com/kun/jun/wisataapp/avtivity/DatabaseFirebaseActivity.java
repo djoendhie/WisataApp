@@ -23,7 +23,7 @@ public class DatabaseFirebaseActivity extends AppCompatActivity {
 
     @BindView(R.id.listview)
     ListView listview;
-    final static String DB_URL ="https://bebas-121f0.firebaseio.com/";
+        final static String DB_URL ="https://bebas-121f0.firebaseio.com/";
 
     EditText nameEditext,urlEditext,infoEditext;
     Button btnsave,btncancel;

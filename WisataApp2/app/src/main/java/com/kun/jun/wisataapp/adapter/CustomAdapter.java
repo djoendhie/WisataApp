@@ -76,6 +76,8 @@ public class CustomAdapter extends BaseAdapter {
         holder.nameText.setText(hewanArrayList.get(position).getName());
         holder.infoText.setText(hewanArrayList.get(position).getInfo());
         PicassoClient.downloading(c, hewanArrayList.get(position).getUrl(), holder.img);
+
+
         holder.infoText.setOnClickListener(new View.OnClickListener() {
             @Override
 
@@ -94,9 +96,10 @@ public class CustomAdapter extends BaseAdapter {
 
                 final String name = hewanArrayList.get(position).getName();
                 final String info = hewanArrayList.get(position).getInfo();
-                final String url = hewanArrayList.get(position).getUrl();
+//                final String url = hewanArrqayList.get(position).getUrl();
 
                 final String id = hewanArrayList.get(position).getId_hewan();
+
                 nameEditext.setText(name);
                 PicassoClient.downloading(c,hewanArrayList.get(position).getUrl(),holder.img = urlEditext);
 //                urlEditext.setImageURI(c, hewanArrayList.get(position).getUrl(), holder.img = url);

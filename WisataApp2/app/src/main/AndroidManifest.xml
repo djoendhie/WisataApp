@@ -23,8 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gabung.rcview.ReyclerAdapter" />
-        <activity android:name=".gabung.rcview.ReyclerViewHolder" />
         <activity
             android:name=".gabung.rcview.IsiActivity"
             android:label="Destination"
@@ -34,9 +32,14 @@
             android:label="Recomended"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".helper.MyFuction" />
-        <activity android:name=".AboutActivity"
+        <activity
+            android:name=".AboutActivity"
             android:label="About Me"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".gabung.RFire.MainMainActivity"
+            android:label="Recomended"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

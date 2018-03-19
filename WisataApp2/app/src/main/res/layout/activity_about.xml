@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kun.jun.wisataapp.AboutActivity"
-    android:background="@drawable/ntah">
+    android:background="#000">
 
     <LinearLayout
         android:layout_marginTop="40dp"
@@ -44,10 +44,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_menu_send"/>
-        <TextView
+        <Button
+            android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="ihaandjoe68@Gmail.com"
+            android:textAllCaps="false"
+             android:gravity="left"
+            android:background="@color/itam"
             android:layout_marginLeft="10dp"
             android:textColor="@color/tiah"/>
     </LinearLayout>
@@ -70,7 +74,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_menu_send"/>
-        <TextView
+        <Button
+            android:id="@+id/Github"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:background="@color/itam"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Djoendhie"
@@ -150,7 +158,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_menu_send"/>
-        <TextView
+        <Button
+            android:id="@+id/Facebook"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:background="@color/itam"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Ihsan Al-Djoendhie"

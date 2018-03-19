@@ -7,7 +7,11 @@ import android.widget.TextView;
 
 import com.kun.jun.wisataapp.R;
 
-public class ReyclerViewHolder extends RecyclerView.ViewHolder {
+/**
+ * Created by Jun on 3/17/2018.
+ */
+
+class ReyclerViewHolder extends RecyclerView.ViewHolder {
 
     // ViewHolder akan mendeskripisikan item view yang ditempatkan di dalam RecyclerView.
     TextView tv1,tv2; //deklarasi textview
@@ -24,4 +28,5 @@ public class ReyclerViewHolder extends RecyclerView.ViewHolder {
         imageView= (ImageView) itemView.findViewById(R.id.icon);
         //menampilkan gambar atau icon pada widget Cardview pada id icon
     }
+
 }

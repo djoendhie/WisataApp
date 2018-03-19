@@ -14,7 +14,7 @@ import com.kun.jun.wisataapp.R;
 
 public class MyHolder {
   public TextView nameText,infoText;
-   public ImageView img, img1;
+   public ImageView img;
 
     public MyHolder(View view){
         nameText = (TextView)view.findViewById(R.id.nameTxt);

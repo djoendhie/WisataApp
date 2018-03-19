@@ -9,7 +9,11 @@ import android.widget.Toast;
 
 import com.kun.jun.wisataapp.R;
 
-public class ReyclerAdapter extends RecyclerView.Adapter<ReyclerViewHolder> {
+/**
+ * Created by Jun on 3/17/2018.
+ */
+
+public class RecyclerAdapter extends RecyclerView.Adapter<ReyclerViewHolder> {
 
 
     private final Context context;
@@ -19,7 +23,7 @@ public class ReyclerAdapter extends RecyclerView.Adapter<ReyclerViewHolder> {
     // menampilkan list item dalam bentuk text dengan tipe data string dengan variable name
 
     LayoutInflater inflater;
-    public ReyclerAdapter(IsiActivity context) {
+    public RecyclerAdapter(IsiActivity context) {
         this.context=context;
         inflater=LayoutInflater.from(context);
     }

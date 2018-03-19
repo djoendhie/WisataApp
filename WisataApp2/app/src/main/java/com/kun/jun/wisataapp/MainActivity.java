@@ -20,9 +20,11 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.kun.jun.wisataapp.avtivity.DatabaseFirebaseActivity;
+import com.kun.jun.wisataapp.gabung.RFire.MainMainActivity;
 import com.kun.jun.wisataapp.gabung.fragment.HomeFragment;
 import com.kun.jun.wisataapp.gabung.loginloading.LoginActivity;
 import com.kun.jun.wisataapp.gabung.ntah.SessionManager;
@@ -30,6 +32,7 @@ import com.kun.jun.wisataapp.gabung.rcview.IsiActivity;
 
 public class MainActivity extends SessionManager
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,7 +139,7 @@ public class MainActivity extends SessionManager
             transaction.replace(R.id.batas,fragment);
             transaction.commit();
         } else if (id == R.id.nav_gallery) {
-            startActivity(new Intent(this, IsiActivity.class));
+            startActivity(new Intent(this, MainMainActivity.class));
 
         } else if (id == R.id.nav_slideshow) {
             startActivity(new Intent(this, DatabaseFirebaseActivity.class));

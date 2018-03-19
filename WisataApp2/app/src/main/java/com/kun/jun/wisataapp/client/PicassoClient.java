@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.ImageView;
 
 import com.kun.jun.wisataapp.R;
+import com.kun.jun.wisataapp.gabung.RFire.RecyclerAdapter;
 import com.squareup.picasso.Picasso;
 
 /**
@@ -18,4 +19,7 @@ public static  void  downloading(Context c, String url, ImageView img){
         Picasso.with(c).load(R.drawable.noimage).into(img);
     }
 }
+
+    public static void downloading(RecyclerAdapter recyclerAdapter, Object url, ImageView img) {
+    }
 }
