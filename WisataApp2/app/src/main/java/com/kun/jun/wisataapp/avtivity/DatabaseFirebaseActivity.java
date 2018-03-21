@@ -50,7 +50,7 @@ public class DatabaseFirebaseActivity extends AppCompatActivity {
             public void onClick(View v) {
 //                Intent n = new Intent(DatabaseFirebaseActivity.this, PencetActivity.class);
 //                startActivity(n);
-                Toast.makeText(DatabaseFirebaseActivity.this, "Map OTW", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DatabaseFirebaseActivity.this, "Males nambah Activity nya", Toast.LENGTH_SHORT).show();
               // isipencet();
                 //bikin peta
                 // displaydialog();

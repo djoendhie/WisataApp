@@ -2,7 +2,6 @@ package com.kun.jun.wisataapp.gabung.RFire;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,14 +10,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.kun.jun.wisataapp.R;
-import com.kun.jun.wisataapp.client.MyHolder;
 import com.kun.jun.wisataapp.client.PicassoClient;
+import com.kun.jun.wisataapp.gabung.fragment.HomeFragment;
 import com.kun.jun.wisataapp.model.Hewan;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import static com.kun.jun.wisataapp.gabung.ntah.MyFuction.c;
 
 /**
  * Created by Jun on 3/17/2018.
@@ -28,13 +24,23 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyHold
 
     List<Hewan> list;
     Context context;
+    HomeFragment contexts;
     private LayoutInflater inflater;
     private View convertView;
+
+    public RecyclerAdapter(List<Hewan> list, MainMainActivity context) {
+        this.list = list;
+    }
 
     public RecyclerAdapter(List<Hewan> list, Context context) {
         this.list = list;
         this.context = context;
     }
+//
+//    public RecyclerAdapter(List<Hewan> list, HomeFragment context) {
+//        this.contexts = context;
+//        this.list = list;
+//    }
 
     @Override
     public MyHolder onCreateViewHolder(ViewGroup parent, int position) {

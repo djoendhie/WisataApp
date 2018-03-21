@@ -5,11 +5,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kun.jun.wisataapp.AboutActivity"
-    android:background="#000">
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context="com.kun.jun.wisataapp.AboutActivity">
 
     <LinearLayout
-        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
@@ -23,22 +31,21 @@
             android:textStyle="bold"
             android:layout_gravity="center"
             android:text="Muhammad Ihsan Al-Jundi"
-            android:textColor="@color/tiah"
-            android:textSize="17sp"/>
+             android:textSize="17sp"/>
     </LinearLayout>
 
     <TextView
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Email"
         android:textSize="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/tiah"/>
+        android:layout_marginLeft="10dp" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
+        android:background="@color/tiah"
+         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
@@ -50,25 +57,25 @@
             android:layout_height="match_parent"
             android:text="ihaandjoe68@Gmail.com"
             android:textAllCaps="false"
-             android:gravity="left"
-            android:background="@color/itam"
+            android:background="@color/tiah"
+            android:gravity="left"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/tiah"/>
+            />
     </LinearLayout>
 
     <TextView
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Github"
         android:textSize="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/tiah"/>
+        android:background="@color/tiah"
+        android:layout_marginLeft="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
+         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
@@ -78,12 +85,12 @@
             android:id="@+id/Github"
             android:textAllCaps="false"
             android:gravity="left"
-            android:background="@color/itam"
+            android:background="@color/tiah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Djoendhie"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/tiah"/>
+            />
     </LinearLayout>
 
 
@@ -92,14 +99,13 @@
         android:layout_height="wrap_content"
         android:text="Addres"
         android:textSize="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/tiah"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
+         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
@@ -110,8 +116,7 @@
             android:layout_height="match_parent"
             android:text=" Djoendhie Djoendhie Djoendhie Djoendhie
  Djoendhie Djoendhie Djoendhie Djoendhie Djoendhie "
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/tiah"/>
+            android:layout_marginLeft="10dp" />
     </LinearLayout>
 
     <TextView
@@ -119,14 +124,13 @@
         android:layout_height="wrap_content"
         android:text="Phone"
         android:textSize="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/tiah"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
+         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
@@ -136,8 +140,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="1234567890"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/tiah"/>
+            android:layout_marginLeft="10dp" />
     </LinearLayout>
 
     <TextView
@@ -145,14 +148,13 @@
         android:layout_height="wrap_content"
         android:text="Facebook"
         android:textSize="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/tiah"/>
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
+         android:layout_marginLeft="10dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="wrap_content"
@@ -162,11 +164,11 @@
             android:id="@+id/Facebook"
             android:textAllCaps="false"
             android:gravity="left"
-            android:background="@color/itam"
+            android:background="@color/tiah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Ihsan Al-Djoendhie"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/tiah"/>
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
     </LinearLayout>
 </LinearLayout>

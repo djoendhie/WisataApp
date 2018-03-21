@@ -28,6 +28,10 @@ import java.util.List;
 
 public class MainMainActivity extends SessionManager {
 
+    /// actyvity ini kagak di pake
+    // jangan di hapus tapi
+    // buat referensi
+
     FirebaseDatabase database;
     DatabaseReference myRef ;
     List<Hewan> list;

@@ -54,7 +54,7 @@ public class MainActivity extends SessionManager
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Gaya Doank", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -138,8 +138,7 @@ public class MainActivity extends SessionManager
             FragmentTransaction transaction = manager.beginTransaction();
             transaction.replace(R.id.batas,fragment);
             transaction.commit();
-        } else if (id == R.id.nav_gallery) {
-            startActivity(new Intent(this, MainMainActivity.class));
+
 
         } else if (id == R.id.nav_slideshow) {
             startActivity(new Intent(this, DatabaseFirebaseActivity.class));
